@@ -615,8 +615,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-return"/>
-<a href="#QUICK-2">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 86%">QUICK-2</tspan></text>
+<a href="#LAYER2">
+<text x="0" y="24" class="key hold layer-activator">LAYER2</text>
 </a></g>
 <g transform="translate(462, 91)" class="key enter keypos-58">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key enter side"/>
@@ -637,8 +637,8 @@ rect.held, rect.combo.held {
 <g transform="translate(672, 259)" class="key keypos-61">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#BT-4">
-<text x="0" y="-4" class="key tap layer-activator">BT-4</text>
+<a href="#LAYER4">
+<text x="0" y="-4" class="key tap layer-activator">LAYER4</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(728, 252)" class="key keypos-62">
@@ -655,13 +655,13 @@ rect.held, rect.combo.held {
 <path d="M462,56 l-415,0" class="combo"/>
 <path d="M462,56 l415,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="43" width="28" height="26" class="combo"/>
-<a href="#BT-4">
-<text x="462" y="56" class="combo tap layer-activator">BT-4</text>
+<a href="#LAYER4">
+<text x="462" y="56" class="combo tap layer-activator">LAYER4</text>
 </a></g>
 </g>
 </g>
-<g transform="translate(40, 388)" class="layer-NUMBER-1">
-<text x="0" y="28" class="label" id="NUMBER-1">NUMBER-1:</text>
+<g transform="translate(40, 388)" class="layer-LAYER1">
+<text x="0" y="28" class="label" id="LAYER1">LAYER1:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1002,13 +1002,13 @@ rect.held, rect.combo.held {
 <path d="M462,56 l-415,0" class="combo"/>
 <path d="M462,56 l415,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="43" width="28" height="26" class="combo"/>
-<a href="#BT-4">
-<text x="462" y="56" class="combo tap layer-activator">BT-4</text>
+<a href="#LAYER4">
+<text x="462" y="56" class="combo tap layer-activator">LAYER4</text>
 </a></g>
 </g>
 </g>
-<g transform="translate(40, 776)" class="layer-QUICK-2">
-<text x="0" y="28" class="label" id="QUICK-2">QUICK-2:</text>
+<g transform="translate(40, 776)" class="layer-LAYER2">
+<text x="0" y="28" class="label" id="LAYER2">LAYER2:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1333,8 +1333,8 @@ rect.held, rect.combo.held {
 <path d="M462,56 l-415,0" class="combo"/>
 <path d="M462,56 l415,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="43" width="28" height="26" class="combo"/>
-<a href="#BT-4">
-<text x="462" y="56" class="combo tap layer-activator">BT-4</text>
+<a href="#LAYER4">
+<text x="462" y="56" class="combo tap layer-activator">LAYER4</text>
 </a></g>
 </g>
 </g>
@@ -1696,13 +1696,13 @@ rect.held, rect.combo.held {
 <path d="M462,56 l-415,0" class="combo"/>
 <path d="M462,56 l415,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="43" width="28" height="26" class="combo"/>
-<a href="#BT-4">
-<text x="462" y="56" class="combo tap layer-activator">BT-4</text>
+<a href="#LAYER4">
+<text x="462" y="56" class="combo tap layer-activator">LAYER4</text>
 </a></g>
 </g>
 </g>
-<g transform="translate(40, 1553)" class="layer-BT-4">
-<text x="0" y="28" class="label" id="BT-4">BT-4:</text>
+<g transform="translate(40, 1553)" class="layer-LAYER4">
+<text x="0" y="28" class="label" id="LAYER4">LAYER4:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key held keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
@@ -2044,8 +2044,8 @@ rect.held, rect.combo.held {
 <path d="M462,56 l-415,0" class="combo"/>
 <path d="M462,56 l415,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="43" width="28" height="26" class="combo"/>
-<a href="#BT-4">
-<text x="462" y="56" class="combo tap layer-activator">BT-4</text>
+<a href="#LAYER4">
+<text x="462" y="56" class="combo tap layer-activator">LAYER4</text>
 </a></g>
 </g>
 </g>
