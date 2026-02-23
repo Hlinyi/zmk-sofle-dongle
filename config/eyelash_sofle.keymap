@@ -102,7 +102,7 @@
         compatible = "zmk,combos";
 
         TO4 {
-            bindings = <&mo 4>;
+            bindings = <&mo 5>;
             key-positions = <0 12>;
         };
     };
@@ -115,8 +115,8 @@
 &kp ESC     &kp N1     &kp N2        &kp N3        &kp N4        &kp N5          &kp UP_ARROW     &kp N6  &kp N7         &kp N8     &kp N9   &kp N0      &kp BACKSPACE
 &kp TAB     &kp Q      &kp W         &kp E         &kp R         &kp T           &kp DOWN_ARROW   &kp Y   &kp U          &kp I      &kp O    &kp P       &kp BSLH
 &kp CAPS    &kp A      &kp S         &kp D         &kp F         &kp G           &kp LEFT_ARROW   &kp H   &kp J          &kp K      &kp L    &kp SEMI    &kp ENTER
-&kp LSHFT   &kp Z      &kp X         &kp C         &kp V         &kp B           &kp RIGHT_ARROW  &kp N   &kp M          &kp COMMA  &kp DOT  &kp FSLH    &kp ENTER
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &ltq 1 SPACE  &ltq 2 ENTER    &kp ENTER        &mo 3   &kp BACKSPACE  &trans     &to 4    &kp DELETE
+&kp LSHFT   &kp Z      &kp X         &kp C         &kp V         &kp B           &kp RIGHT_ARROW  &kp N   &kp M          &kp COMMA  &kp DOT  &kp FSLH    &to 5
+&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &ltq 1 SPACE  &ltq 2 ENTER    &kp ENTER        &mo 4   &kp BACKSPACE  &trans     &to 3    &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -141,6 +141,18 @@
 &trans  &trans  &trans          &kp C_VOLUME_DOWN  &trans      &trans    &trans  &trans  &kp RS(N1)  &kp RS(N2)  &kp RS(N3)  &kp FSLH  &trans
 &trans  &trans  &trans          &trans             &trans      &trans    &trans  &trans  &kp N0      &trans      &trans      &trans
             >;
+        };
+
+        GAME3 {
+            bindings = <
+&kp GRAVE  &kp N1     &kp N2    &kp N3  &kp N4     &kp N5    &trans  &kp N6  &kp N7    &kp N8     &kp N9   &kp N0    &trans
+&kp F1     &kp Q      &kp W     &kp E   &kp R      &kp T     &trans  &kp Y   &kp U     &kp I      &kp O    &kp P     &trans
+&kp F2     &kp A      &kp S     &kp D   &kp F      &kp G     &trans  &kp H   &kp J     &kp K      &kp L    &kp SEMI  &trans
+&trans     &kp Z      &kp X     &kp C   &kp V      &kp B     &trans  &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH  &trans
+&trans     &kp LCTRL  &kp LALT  &kp N6  &kp SPACE  &kp N7    &trans  &trans  &kp BSPC  &trans     &to 0    &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         MOUSE3 {
