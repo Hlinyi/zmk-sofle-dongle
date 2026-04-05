@@ -1,6 +1,3 @@
-
-
-
 manifest:
   remotes:
     - name: zmkfirmware
@@ -12,22 +9,18 @@ manifest:
     - name: englmaxi
       url-base: https://github.com/englmaxi
   projects:
-    # 锁死到2024年2月兼容ZMK v0.3.0的固定版本，不再跟随main分支自动更新
     - name: mario-peripheral-animation
       remote: gpeye
-      revision: 2c4a8e9
-    # 保留你2月正常使用的ZMK v0.3.0核心版本，无需升级
+      revision: main 
     - name: zmk
       remote: zmkfirmware
       revision: v0.3.0
       import: app/west.yml
-    # 锁死micro_spi2分支的兼容版本，杜绝分支更新带来的不兼容
-    - name: prospector-zmk-module
-      remote: tokyo2006
-      revision: 8f3b7d2
-    # 锁死zmk-dongle-display兼容v0.3.0的最终稳定版本
+    - name: prospector-zmk-module                 # <--- and these
+      remote: tokyo2006                          # <---
+      revision: micro_spi2  
     - name: zmk-dongle-display
       remote: englmaxi
-      revision: 7a9c4e1
+      revision: v0.3
   self:
     path: config
