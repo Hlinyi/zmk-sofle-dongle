@@ -101,7 +101,7 @@
     combos {
         compatible = "zmk,combos";
 
-        TO4 {
+        TO6 {
             bindings = <&mo 6>;
             key-positions = <0 12>;
         };
@@ -125,11 +125,11 @@
 
         KKJP1 {
             bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans        &trans  &trans               &trans         &trans         &trans         &trans                      &trans
-&trans  &kp LG(D)  &kp LA(A)  &kp UP     &kp DEL    &kp LA(F4)    &trans  &as RS(EQUAL) EQUAL  &as RS(N7) N7  &as RS(N8) N8  &as RS(N9) N9  &as RS(MINUS) MINUS         &trans
-&trans  &kp LC(A)  &kp LEFT   &kp DOWN   &kp RIGHT  &trans        &trans  &kp KP_DOT           &as RS(N4) N4  &as RS(N5) N5  &as RS(N6) N6  &as RS(LBKT) LEFT_BRACKET   &trans
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LG(V)     &none   &as RS(N0) N0        &as RS(N1) N1  &as RS(N2) N2  &as RS(N3) N3  &as RS(RBKT) RIGHT_BRACKET  &trans
-&trans  &trans     &trans     &trans     &trans     &trans        &trans  &trans               &trans         &trans         &trans         &trans
+&trans  &trans     &trans     &trans     &trans     &trans        &trans  &trans                             &trans         &trans         &trans         &trans               &trans
+&trans  &kp LG(D)  &kp LA(A)  &kp UP     &kp DEL    &kp LA(F4)    &trans  &as RS(EQUAL) EQUAL                &as RS(N7) N7  &as RS(N8) N8  &as RS(N9) N9  &as RS(MINUS) MINUS  &trans
+&trans  &kp LC(A)  &kp LEFT   &kp DOWN   &kp RIGHT  &trans        &trans  &as RS(LEFT_BRACKET) LEFT_BRACKET  &as RS(N4) N4  &as RS(N5) N5  &as RS(N6) N6  &none                &trans
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LG(V)     &none   &as RS(N0) RIGHT_BRACKET           &as RS(N1) N1  &as RS(N2) N2  &as RS(N3) N3  &none                &trans
+&trans  &trans     &trans     &trans     &trans     &trans        &trans  &trans                             &as RS(N0) N0  &kp KP_DOT     &trans         &trans
             >;
         };
 
