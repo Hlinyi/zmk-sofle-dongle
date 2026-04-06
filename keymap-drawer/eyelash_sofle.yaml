@@ -99,11 +99,11 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP DOT
+  - {t: '[', h: 'Sft+[', s: '{'}
   - {t: '4', h: Sft+4, s: $}
   - {t: '5', h: Sft+5, s: '%'}
   - {t: '6', h: Sft+6, s: ^}
-  - {t: '[', h: 'Sft+[', s: '{'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Z
@@ -112,11 +112,11 @@ layers:
   - Ctl+V
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '0', h: Sft+0, s: )}
+  - {t: ']', h: Sft+0, s: '}'}
   - {t: '1', h: Sft+1, s: '!'}
   - {t: '2', h: Sft+2, s: '@'}
   - {t: '3', h: Sft+3, s: '#'}
-  - {t: ']', h: 'Sft+]', s: '}'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -126,8 +126,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '0', h: Sft+0, s: )}
+  - KP DOT
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   UUZI2:
