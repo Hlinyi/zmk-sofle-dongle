@@ -108,12 +108,12 @@
 
         SPAC {
             bindings = <&kp SPACE>;
-            key-positions = <28 29>;
+            key-positions = <29 30>;
         };
 
         SHIF {
             bindings = <&kp LEFT_SHIFT>;
-            key-positions = <41 42>;
+            key-positions = <42 43>;
         };
 
         CTR {
@@ -123,12 +123,12 @@
 
         ALT {
             bindings = <&kp LEFT_ALT>;
-            key-positions = <28 29>;
+            key-positions = <29 28>;
         };
 
         WIN {
             bindings = <&kp LWIN>;
-            key-positions = <41 42>;
+            key-positions = <42 41>;
         };
     };
 
