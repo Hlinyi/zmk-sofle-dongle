@@ -523,13 +523,13 @@ layers:
 combos:
 - p: [0, 12]
   k: LJYA7
-- p: [28, 29]
+- p: [29, 30]
   k: $$mdi:keyboard-space$$
-- p: [41, 42]
+- p: [42, 43]
   k: $$mdi:apple-keyboard-shift$$
 - p: [16, 17]
   k: $$mdi:apple-keyboard-control$$
-- p: [28, 29]
+- p: [29, 28]
   k: $$mdi:apple-keyboard-option$$
-- p: [41, 42]
+- p: [42, 41]
   k: LWIN
